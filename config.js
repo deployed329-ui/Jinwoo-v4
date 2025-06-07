@@ -6,11 +6,11 @@ import fs from 'fs'
 import dotenv from 'dotenv'
 dotenv.config()
 
-const defaultOwner = '263780166288';
+const defaultOwner = '50949100359';
 
 
 // Check for the OWNERS environment variable; if not found, use the default
-const ownervb = process.env.OWNERS || process.env.OWNER_NUMBER || '263780166288' ; // put your number here
+const ownervb = process.env.OWNERS || process.env.OWNER_NUMBER || '50949100359' ; // put your number here
 
 const ownerlist = ownervb.split(';');
 
@@ -19,9 +19,9 @@ for (let i = 0; i < ownerlist.length; i++) {
     global.owner.push([ownerlist[i], true]);
 }
 //
-global.botname = process.env.BOTNAME || 'ᴊɪɴᴡᴏᴏ ᴠ4';
-global.pairingNumber = process.env.BOT_NUMBER || '' ;  // put your number here
-global.SESSION_ID = process.env.SESSION_ID || '' ;  // put your session id here
+global.botname = process.env.BOTNAME || 'JON-SNOW MD';
+global.pairingNumber = process.env.BOT_NUMBER || '50949100359' ;  // put your number here
+global.SESSION_ID = process.env.SESSION_ID || 'dz80mAoT#OM4lZMiZ5WVRtV4-spRHVlr6V9Oyr9lybiPkVqQKYrs' ;  // put your session id here
 
 global.mods = []
 global.prems = []
@@ -73,8 +73,8 @@ global.APIKeys = {
 
 // Sticker WM
 global.premium = 'true'
-global.packname = 'ᴊɪɴᴡᴏᴏ ᴠ4'
-global.author = 'ᴍᴀʟᴠɪɴ ᴋɪɴɢ'
+global.packname = 'JON-SNOW'
+global.author = '𝙎𝙉𝙊𝙒_𝙈𝘿-V1'
 global.menuvid = 'https://i.imgur.com/2Sp3cqD.mp4'
 global.igfg = ' Follow on Instagram\nhttps://www.instagram.com/Techlord01'
 global.dygp = 'https://whatsapp.com/channel/0029VbA6MSYJUM2TVOzCSb2A'
